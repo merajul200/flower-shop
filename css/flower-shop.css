@@ -1,0 +1,245 @@
+body{
+    border: none;
+    font-family: 'Lato', sans-serif;
+}
+
+/* banner style */
+
+.banner{
+    background-color:rgba(229, 84, 115, 0.10);
+    /* display:flex;
+    /* justify-content: space-around; */
+    /* margin: auto; */
+    /* padding: auto;
+    align-items: center;
+    width: 1920px;
+    height: 850px; */ */
+    padding: 100px 0px 0px 150px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.banner-div{
+    padding: 197px 0px 365px 240px;
+
+}
+
+.banner-img{
+    padding: 50px 240px 0px 0px;
+    width: 635px;
+    height: 800px;
+}
+
+.banner-h{
+    color:#272727;
+    font-size: 80px;
+    width: 708px;
+    padding: 190px 200px 0px 0px;
+}
+
+.banner-p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
+
+}
+
+.banner-b{
+    background-color: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    color:  #FFF;
+    border: none;
+}
+
+/* featured style */
+
+.featured-div{
+    text-align: center;
+    margin: auto;
+}
+
+.featuredflowerdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pink-div-1{
+    width: 464px;
+    height: 480px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+}
+
+.pink-div-2{
+    width: 464px;
+    height: 480px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+}
+
+.pink-div-3{
+    width: 464px;
+    height: 480px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+    text-align: center;
+
+}
+
+.hot-section{
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 100px;
+
+}
+
+.hot-h{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.hot-p{
+    max-width: 594px;
+}
+
+.flowers-img-1{
+    width: 310px;
+    height: 428px;
+}
+.flower-img-2{
+    width: 370px;
+    height: 370px;
+}
+
+.flower-img-3{
+    width: 314px;
+    height: 471px;
+}
+.pink-flower-1{
+    color:  #272727;
+    text-decoration: underline;
+}
+.pink-flower-2{
+    color: #272727;
+    text-decoration: underline;
+}
+
+.pink-flower-3{
+    color: #272727;
+    text-decoration: underline;
+}
+
+/* insta style */
+
+.insta-div{
+    text-align: center;
+}
+
+.insta-div-img{
+    text-align: center;
+    justify-content: space-around;
+}
+
+.insta-h{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.insta-p{
+
+    color:rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+/* get deal style */
+
+.get-section{
+    background-image: url(../flower/Rectangle9.png);
+    margin: 128px 240px 128px 240px;
+    border-radius: 8px;
+    height: 450px;
+    background-position: center;
+}
+
+
+.get-h{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.get-p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px
+}
+
+.get-input{
+    width: 700px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.get-div-1{
+    text-align: center;
+    padding: 122px 400px 0px 400px;
+}
+
+.get-div-2{
+    text-align: center;
+}
+
+/* footer style */
+
+.footer-section{
+    background-color: #111010;
+    width: auto;
+    height: 300px;
+    padding: auto;
+    align-items: center;
+}
+
+.footer-div{
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px 0px 0px ;
+    color: ;
+}
+
+.footer-h{
+    font-size: 48px;
+    /* font-weight: 100px; */
+}
+
+.footer-p{
+    padding: 20px 400px 20px 400px;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+/* span */
+.off{
+    color: #E55473;
+}
+.shop{
+    color: #FFF;
+}
